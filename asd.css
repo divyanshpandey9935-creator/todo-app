@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -76,6 +75,7 @@ h1 {
     margin-bottom: 10px;
     border-radius: 8px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
     color: rgb(255, 255, 255);
@@ -94,8 +94,9 @@ delete-icon {
     transition: 0.3s;
 } 
 .delImg {
-  margin-left: 150px;   
-  cursor: pointer;     
+  margin-left: auto;   
+  cursor: pointer;
+  display: block;
 }
 
 
